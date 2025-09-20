@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python packages
+*.egg-info/
+dist/
+build/
+
+# AI model / cache folders (if any)
+models/
+*.gguf
+*.bin
+*.pt
+
+# Other temporary files
+*.tmp
+*.bak
