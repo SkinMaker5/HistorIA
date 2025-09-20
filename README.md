@@ -19,7 +19,6 @@ It allows the user to control the main character while the AI manages all second
 ## Project Structure
 
 ```mermaid
-```mermaid
 graph TD
     A[HistorIA] --> B[.gitignore]
     A --> C[HistorIA_Vault]
@@ -44,7 +43,7 @@ graph TD
     J --> J7[scenarios.py]
     J --> J8[vault_summaries.json]
     J --> J9[world_manager.py]
-
+```
 ---
 
 ## Installation
