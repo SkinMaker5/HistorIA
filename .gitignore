@@ -36,6 +36,8 @@ memory/
 assets/
 backups/
 debug/
+.gradio/
+.gradio/flagged
 
 # Other temporary files
 *.tmp
