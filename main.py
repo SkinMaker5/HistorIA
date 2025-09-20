@@ -2,10 +2,10 @@
 import gradio as gr
 import os
 import json
-from src.generate_response import generate_response
-from src.entity_manager import detect_and_store_entity, save_or_update_entity, load_entity
-from src.dynamic_entities import get_active_characters, add_character, remove_character
-from src.config import WORLD_STATE_FILE
+from generate_response import generate_response
+from entity_manager import detect_and_store_entity, save_or_update_entity, load_entity
+from dynamic_entities import get_active_characters, add_character, remove_character
+from config import WORLD_STATE_FILE
 
 # --- Chat history ---
 history = []

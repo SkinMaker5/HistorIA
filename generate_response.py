@@ -1,9 +1,9 @@
 # generate_response.py
 import subprocess
-from src.config import CHAR_DIR, LOC_DIR, SCEN_DIR, MODEL, GPU_ENABLED, MAX_TOKENS
-from src.scenarios import load_character, load_location, load_scenario
-from src.world_manager import load_world_state, save_world_state
-from src.entity_manager import detect_and_store_entity, load_entity
+from config import CHAR_DIR, LOC_DIR, SCEN_DIR, MODEL, GPU_ENABLED, MAX_TOKENS
+from scenarios import load_character, load_location, load_scenario
+from world_manager import load_world_state, save_world_state
+from entity_manager import detect_and_store_entity, load_entity
 
 MAX_HISTORY_LINES = 10  # keep recent history to avoid prompt overload
 

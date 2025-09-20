@@ -1,5 +1,5 @@
 import os
-from src.entity_manager import save_or_update_entity, load_entity
+from entity_manager import save_or_update_entity, load_entity
 
 active_characters = []
 
