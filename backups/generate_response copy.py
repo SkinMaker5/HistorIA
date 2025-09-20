@@ -1,8 +1,8 @@
 import subprocess
 from pathlib import Path
-from config import CHAR_DIR, LOC_DIR, SCEN_DIR, MODEL, GPU_ENABLED, MAX_TOKENS
-from scenarios import load_character, load_location, load_scenario
-from world_manager import load_world_state
+from src.config import CHAR_DIR, LOC_DIR, SCEN_DIR, MODEL, GPU_ENABLED, MAX_TOKENS
+from src.scenarios import load_character, load_location, load_scenario
+from src.world_manager import load_world_state
 import numpy as np
 from sentence_transformers import SentenceTransformer, util
 import json

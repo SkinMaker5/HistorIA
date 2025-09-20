@@ -1,6 +1,6 @@
 import json
 import os
-from config import WORLD_STATE_FILE
+from src.config import WORLD_STATE_FILE
 
 def load_world_state() -> dict:
     if os.path.exists(WORLD_STATE_FILE):

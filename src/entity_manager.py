@@ -1,6 +1,6 @@
 import os
 import re
-from config import CHAR_DIR
+from src.config import CHAR_DIR
 
 def sanitize_filename(name):
     return re.sub(r'[\\/*?:"<>|]', "", name)

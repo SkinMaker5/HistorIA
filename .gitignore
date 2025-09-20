@@ -30,6 +30,13 @@ models/
 *.bin
 *.pt
 
+#local empty folders
+Models/
+memory/
+assets/
+backups/
+debug/
+
 # Other temporary files
 *.tmp
 *.bak
