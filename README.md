@@ -48,27 +48,27 @@ graph TD
 HistorIA
 ├─ .gitignore
 ├─ HistorIA_Vault
-│  ├─ characters/
-│  ├─ locations/
-│  ├─ scenarios/
-│  └─ vault/
+│ ├─ characters/
+│ ├─ locations/
+│ ├─ scenarios/
+│ └─ vault/
 ├─ Models/
 ├─ README.md
 ├─ assets/
 ├─ debug/
-│  └─ test/
+│ └─ test/
 ├─ memory/
 ├─ requirements.txt
 └─ src/
-   ├─ config.py
-   ├─ dynamic_entities.py
-   ├─ entity_manager.py
-   ├─ generate_response.py
-   ├─ gradio_test.py
-   ├─ main.py
-   ├─ scenarios.py
-   ├─ vault_summaries.json
-   └─ world_manager.py
+├─ config.py
+├─ dynamic_entities.py
+├─ entity_manager.py
+├─ generate_response.py
+├─ gradio_test.py
+├─ main.py
+├─ scenarios.py
+├─ vault_summaries.json
+└─ world_manager.py
 
 ---
 
